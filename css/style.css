@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    color: rgb(56, 56, 56);
+    'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flexible-container{
+    display: flex;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#first-header{
+    font-size: 60px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(56, 56, 56);
+    margin-left: 30px;
+}
+
+#second-header{
+    font-size: 60px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(250, 152, 114);
+    margin-left: 30px;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 380px;
+    margin-top: 170px;
+}
+
+.half-width img{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.half-width p{
+    font-size: 20px;
+}
+
+.line{
+    border-left: 7px solid salmon;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: rgb(247, 96, 85);
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 13px 40px;
+    border-radius: 10px;
+}
+
+.image-pos{
+    max-width: 170px;
+    height: auto;
+}
+
+#middle-head{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(56, 56, 56);
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+
+#orange{
+    color: rgb(250, 152, 114);
+}
+
+.box{
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-right: auto;
+    padding-left: 31px;
+    padding-right: 5px;
+    background-color: #FFFAF0;
+}
+
+.box h3{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box2{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: auto;
+    padding-left: 31px;
+    padding-right: 5px;
+    background-color: #ffeeee;
+}
+
+.box2 h3{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box3{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 500px;
+    padding-left: 31px;
+    padding-right: 5px;
+    background-color: #fff4d6;
+}
+
+.box3 h3{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
