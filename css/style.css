@@ -69,7 +69,7 @@ p{
     margin-bottom: auto;
 }
 
-#orange{
+.orange{
     color: rgb(250, 152, 114);
 }
 
@@ -117,7 +117,7 @@ p{
 .part1 img{
     width: 400px;
     margin-right: 50px;
-} 
+}
 
 .part2{
     width: 50%;
@@ -131,6 +131,61 @@ p{
 
 .part2 p{
     font-size: 20px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 40px 0px; */
+    margin-top: 40px;
+    margin-bottom: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#contact h1{
+    font-size: 40px;
+    margin: 20px;
+}
+#contact h3{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.contact-input{
+    width: 400px;
+    height: 50px;
+    background-color: #ffeeee;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 30px rbga(0,0,0,0.15);
+}
+
+.contact-input input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #252526;
+}
+
+.contact-input a{
+    width: 200px;
+    height: 35px;
+    text-decoration: none;
+    background-color: rgb(247, 96, 85);
+    color: white;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    margin: auto 10px;
+    border-radius: 20px;
+    font-weight: 500;
 }
 
 footer{
